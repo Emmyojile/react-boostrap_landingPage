@@ -89,6 +89,7 @@ function Carousel() {
               </p>
             </div>
           </div>
+          
         </div>
         <button
           className="carousel-control-prev"
