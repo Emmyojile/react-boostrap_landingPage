@@ -26,42 +26,43 @@ function CustomNav() {
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
+              <Link to={"/register"}>
               <li className="nav-item">
-                <a className="nav-link" href="#home">
+                <a className="nav-link" >
                   Home
                 </a>
+                
               </li>
+              </Link>
               <li className="nav-item">
                 <a className="nav-link" href="#about">
                   ABOUT
                 </a>
               </li>
-              <NavDropdown title="ADMISSIONS" id="nav-dropdown">
-                <NavDropdown.Item eventKey="4.1">CONTINUES EDUCATION</NavDropdown.Item>
-                <NavDropdown.Item eventKey="4.2">
-                  UNDERGRADUATE STUDIES
-                </NavDropdown.Item>
-                <NavDropdown.Item eventKey="4.3">
-                  POSTGRADUATE SCHOOL
-                </NavDropdown.Item>
-              </NavDropdown>
+              <li className="nav-item">
+                <a className="nav-link" href="#about">
+                ADMISSIONS
+                </a>
+              </li>
               <NavDropdown title="STUDENTS" id="nav-dropdown">
-                <Link to={'/register'}>
                 <NavDropdown.Item eventKey="4.2">
-                  REGISTER
-                </NavDropdown.Item>
+                <Link to='/register'>
+                <a className="nav-link" >
+                  Register
+                </a>
                 </Link>
+                </NavDropdown.Item>
                 <NavDropdown.Item eventKey="4.3">
                   LOGIN
                 </NavDropdown.Item>
               </NavDropdown>
               <li className="nav-item">
-                <a className="nav-link" href="#team">
+                <a className="nav-link" >
                 ACADEMICS
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#contact">
+                <a className="nav-link" >
                 PROGRAMS
                 </a>
               </li>

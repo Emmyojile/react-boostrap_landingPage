@@ -24,7 +24,7 @@ function Portfolio() {
                 <div className="img-area mb-4">
                   <img src="images/project-1.jpg" alt="" className="img-fluid" />
                 </div>
-                <h3 className="card-title">Building Make</h3>
+                <h2 className="card-title">Lorem ipsum</h2>
                 <p className="lead">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
                   a unde ipsam cum nulla quia aspernatur magnam labore dolore
@@ -40,7 +40,7 @@ function Portfolio() {
                 <div className="img-area mb-4">
                   <img src="images/project-2.jpg" alt="" className="img-fluid" />
                 </div>
-                <h3 className="card-title">Building Make</h3>
+                <h2 className="card-title">Lorem ipsum</h2>
                 <p className="lead">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
                   a unde ipsam cum nulla quia aspernatur magnam labore dolore
@@ -54,9 +54,9 @@ function Portfolio() {
             <div className="card text-light text-center bg-white pb-2">
               <div className="card-body text-dark">
                 <div className="img-area mb-4">
-                  <img src="images/project-3.jpg" alt="" className="img-fluid" />
+                  <img src="https://images.pexels.com/photos/1184580/pexels-photo-1184580.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" className="img-fluid" />
                 </div>
-                <h3 className="card-title">Building Make</h3>
+                <h2 className="card-title">Lorem ipsum</h2>
                 <p className="lead">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
                   a unde ipsam cum nulla quia aspernatur magnam labore dolore

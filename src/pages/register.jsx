@@ -21,6 +21,8 @@ function FormExample() {
   });
 
   return (
+    <div className="d-flex justify-content-center align-items-center vh-100">
+      
     <Formik
       validationSchema={schema}
       onSubmit={console.log}
@@ -181,6 +183,8 @@ function FormExample() {
         </Form>
       )}
     </Formik>
+    
+    </div>
   );
 }
 
